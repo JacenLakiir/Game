@@ -8,7 +8,7 @@ public class Main
     public static void main (String[] args)
     {
         GameLoader loader = new GameLoader();
-        loader.setup(new PlatformerGame(), new Dimension(800, 600), false);
+        loader.setup(new PlatformerGame(), new Dimension(720, 640), false);
         loader.start();
     }
 }
